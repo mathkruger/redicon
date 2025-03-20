@@ -26,7 +26,7 @@ input {
   padding: 8px;
   margin-top: 5px;
   box-sizing: border-box;
-  -webkit-appearance: textfield;
+  -webkit-appearance: none;
   font-size: 16px;
 }
 
@@ -55,4 +55,12 @@ button:hover {
 
 #result span {
   font-size: 40px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+  select,
+  textarea,
+  input {
+    font-size: 16px;
+  }
 }
