@@ -29,12 +29,6 @@ input {
   font-size: 16px;
 }
 
-input[type="date"] {
-  -webkit-appearance: none;
-  width: calc(100% - 16px);
-  overflow: hidden;
-}
-
 button {
   margin-top: 20px;
   padding: 10px 20px;
@@ -67,5 +61,11 @@ button:hover {
   textarea,
   input {
     font-size: 16px;
+  }
+
+  input[type="date"] {
+    -webkit-appearance: none;
+    padding: 8px 0;
+    min-height: 34px;
   }
 }
