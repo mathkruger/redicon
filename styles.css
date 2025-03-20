@@ -21,11 +21,13 @@ label {
 }
 
 input {
+  min-width: 100%;
   width: 100%;
   padding: 8px;
   margin-top: 5px;
   box-sizing: border-box;
   -webkit-appearance: textfield;
+  font-size: 16px;
 }
 
 button {
