@@ -25,6 +25,7 @@ input {
   padding: 8px;
   margin-top: 5px;
   box-sizing: border-box;
+  -webkit-appearance: textfield;
 }
 
 button {
